@@ -48,7 +48,7 @@ At each iteration of training process, we generate random images and then train 
 ## Results
 Figure 1 and 2 show the early synthetic images in the early epochs (epoch 1 to 6). Figure 3 shows the later synthetic images (epoch 20, 35, 50).
 
-<img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0001_output.png" height="250"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0002_output.png" height="250"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0003_output.png" height="250">
+<img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0001_output.png" height="300"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0002_output.png" height="300"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0003_output.png" height="300">
 
 Figure 1: Synthetic images for epoch 1 (left), epoch 2 (middle), and epoch 3 (right).
 
