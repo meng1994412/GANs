@@ -8,6 +8,7 @@ from keras.layers.core import Activation
 from keras.layers.core import Flatten
 from keras.layers.core import Dense
 from keras.layers.core import Reshape
+from keras import backend as K
 
 class DCGAN:
     @staticmethod
@@ -18,6 +19,10 @@ class DCGAN:
         model = Sequential()
         inputShape = (dim, dim, depth)
         chanDim = -1
+
+        if K.image_data_format() == "channels_first":
+            inputShape = (depth, dim, dim)
+            chanDim = 1
 
         # first set of FC => RELU => BN layers
         model.add(Dense(input_dim = inputDim, units = outputDim))
@@ -53,6 +58,9 @@ class DCGAN:
         # "channels last"
         model = Sequential()
         inputShape = (height, width, depth)
+
+        if K.image_data_format() == "channels_first":
+            inputShape = (depth, height, width)
 
         # first set of CONV => RELU layers
         model.add(Conv2D(32, (5, 5), padding = "same", strides = (2, 2),
