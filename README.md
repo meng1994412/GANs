@@ -48,14 +48,14 @@ At each iteration of training process, we generate random images and then train 
 ## Results
 Figure 1 and 2 show the early synthetic images in the early epochs (epoch 1 to 6). Figure 3 shows the later synthetic images (epoch 20, 35, 50).
 
-<img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0001_output.png" height="300"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0002_output.png" height="300"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0003_output.png" height="300">
+<img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0001_output.png" height="280"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0002_output.png" height="280"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0003_output.png" height="280">
 
 Figure 1: Synthetic images for epoch 1 (left), epoch 2 (middle), and epoch 3 (right).
 
-<img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0004_output.png" height="250"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0005_output.png" height="250"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0006_output.png" height="250">
+<img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0004_output.png" height="280"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0005_output.png" height="280"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0006_output.png" height="280">
 
 Figure 2: Synthetic images for epoch 4 (left), epoch 5 (middle), and epoch 6 (right).
 
-<img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0020_output.png" height="250"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0035_output.png" height="250"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0050_output.png" height="250">
+<img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0020_output.png" height="280"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0035_output.png" height="280"> <img src="https://github.com/meng1994412/GANs/blob/master/output/epoch_0050_output.png" height="280">
 
 Figure 2: Synthetic images for epoch 20 (left), epoch 35 (middle), and epoch 50 (right).
